@@ -15,6 +15,7 @@ body{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../image/background.jpg');
     color:#fff;
     background-size: cover;
+    background-position: center;
 
 }
 .counter{
@@ -43,7 +44,42 @@ p{
 }
  .box h2{
     font-size: 20px;
+    font-weight: 500px;
  }
  .box small{
     font-size: 10px;
+ }
+ @media(min-width:576px){
+    .newyear{
+        font-size: 100px;
+    }
+    .box h2{
+        font-size: 30px;
+    }
+    .box{
+        width: 100px;
+        height: 70px;
+    }
+    .box small{
+        font-size: 15px;
+     }
+    
+ }
+ @media(min-width:768px){
+    .newyear{
+        font-size: 150px;
+    }
+    p{
+        font-size: 25px;
+     }
+     .box h2{
+        font-size: 50px;
+     }
+     .box{
+        width: 150px;
+        height: 150px;
+    }
+    .box small{
+        font-size: 20px;
+     }
  }
